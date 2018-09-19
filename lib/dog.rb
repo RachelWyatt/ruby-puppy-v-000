@@ -8,7 +8,8 @@ class Dog
   end
 
   def self.all
-    @@all.select {|x| puts x}
+    @@all.select {|x| x}
+    puts x
   end
 
   def self.clear_all
