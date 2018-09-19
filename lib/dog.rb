@@ -9,7 +9,7 @@ class Dog
 
   def self.all
     answer = @@all.select {|x| x}
-    answer
+    puts answer
   end
 
   def self.clear_all
