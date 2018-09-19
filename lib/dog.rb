@@ -8,7 +8,8 @@ class Dog
   end
 
   def self.all
-    @@all.select {|x| return x}
+    answer = @@all.select {|x| x}
+    answer
   end
 
   def self.clear_all
